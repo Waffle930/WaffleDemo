@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/mine_view_header" />
+    <LinearLayout
+        android:background="@color/green"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageButton
+            android:id="@+id/mine_account_cover_pic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/account_cover_pic"/>
+        <TextView
+            android:text="未登录"
+            android:id="@+id/mine_account_cover_username"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="25dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/light_grey"/>
+    <LinearLayout
+        android:id="@+id/mine_account_signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_button_layout_height"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:clickable="false"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/account_signup_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:clickable="false"
+            android:textColor="@color/grey"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/mine_button_text_size"/>
+        <ImageView
+            android:clickable="false"
+            android:layout_marginEnd="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_right_grey"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_grey"/>
+
+    <LinearLayout
+        android:id="@+id/mine_account_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_button_layout_height"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:clickable="false"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/account_login_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:clickable="false"
+            android:textColor="@color/grey"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="登陆"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/mine_button_text_size"/>
+        <ImageView
+            android:clickable="false"
+            android:layout_marginEnd="5dp"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:background="@drawable/arrow_right_grey"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_grey"/>
+
+    <LinearLayout
+        android:id="@+id/mine_account_logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_button_layout_height"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:clickable="false"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/account_logout_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:clickable="false"
+            android:textColor="@color/grey"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="退出账号"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/mine_button_text_size"/>
+        <ImageView
+            android:clickable="false"
+            android:layout_marginEnd="5dp"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:background="@drawable/arrow_right_grey"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/light_grey"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_button_layout_height"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/about_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+        <TextView
+            android:textColor="@color/grey"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="关于"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/mine_button_text_size"/>
+        <ImageView
+            android:layout_marginEnd="5dp"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:background="@drawable/arrow_right_grey"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_grey"/>
+
+</LinearLayout>
